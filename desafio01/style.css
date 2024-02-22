@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*cabeçalho*/
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header h1 {
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration:none;
+}
+
+/* conteudo principal */
+
+.news-container {
+    display: flex;
+    margin: 1 rem 0;
+    gap: 5rem;
+    justify-content: center;
+}
+

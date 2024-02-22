@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: idroid;
+            src: url(fontes/idroid.otf);
+        }
+
+
+        body{
+            background-color: #6bd89a;
+            margin: 0px;
+        }
+
+
+        header{
+            background-color: #227747;
+            color: white;
+            display: block;
+            padding: 10px;
+            margin: 0px 0px 0px 0px;
+            background-image: linear-gradient(to bottom, rgb(54, 168, 54), rgb(8, 107, 8));
+            box-shadow: 5px 5px 15px #0000006c;
+        }
+
+        #principal{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-size: 45px;
+        }
+
+        header > p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            text-align: center;
+            font-size: 13px;
+            margin-top: 7px;
+            margin-bottom: 30px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+
+
+        #conteudo{
+            background-color: white;
+            border: 10px;
+            margin-top: 0px;
+            margin-right: 100px;
+            margin-bottom: 10px;
+            margin-left: 100px;
+            padding: 10px;
+            box-shadow: 5px 5px 15px #0000006c;
+           }
+
+           div > picture{
+            text-align: center;
+            display: block;
+           }
+        div > #metade{
+            text-align: center;
+            display: block;
+        }
+
+        div > #ultima{
+            background-color: white;
+            border: 10px;
+            margin-top: 0px;
+            margin-right: 100px;
+            margin-bottom: 10px;
+            margin-left: 100px;
+            padding: 10px;
+            box-shadow: 5px 5px 15px #0000006c;
+        }
+
+        #ultima > article{
+            background-color: #a2efc3;
+        }
+        article > h3{
+            background-color: #227747;
+            color: white;
+        }
+
+        div > h1{
+            font-family: idroid;
+            color: #227747;
+        }
+
+        div > h2{
+            font-family: idroid;
+            color: #227747;
+            background-color: #72e8a5a4;
+            background-image: linear-gradient(to right, #72e8a5a4, white);
+        }
+
+        #ultima > article{
+            padding: 3px;
+            border-radius: 20px;
+        }
+
+        article > h3{
+            margin-top: 0px;
+            border-radius: 20px;
+        }
+
+           
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Curiosidades de Tecnologia</h1>
+        <p>Tudo aquilo que voce sempre quis saber sobre o mundo tech</p>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Noticias</a>
+            <a href="">Curiosidades</a>
+            <a href="">Fale Conosco</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <div id="conteudo">
+            <h1>Histórico do mascote do Android</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corporis sint animi ipsum sapiente nulla omnis, distinctio sequi incidunt cumque assumenda ex consectetur blanditiis praesentium? Optio veritatis repellat architecto debitis.</p>
+
+            <h2>Primeira versão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis quidem ratione ad necessitatibus incidunt aliquid odio nemo ab accusantium, nam error explicabo magni possimus itaque minus velit libero corrupti?</p>
+
+            <picture>
+                <source media="(max-width: 1050px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+                <img src="imagens/dan-droids.png" alt="imagem-flexivel">
+            </picture>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad error eum dolorem vel alias, laboriosam</p>
+
+            <h2>Surge um  novo mascote</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus corrupti soluta voluptatem fugiat ex reiciendis officia cupiditate nisi, impedit invento</p>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+                <img src="imagens/irina-blok.jpg" alt="imagem flexivel">
+            </picture>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, facilis. Ea corporis repellendus reprehenderit eos sit et, nam similique quide</p>
+
+            <section id="metade">
+                <img class="imagem1" src="imagens/bugdroid.png" alt="imagem-android">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem asperiores corrupti magni sequi consequatur rerum, vel nemo velit, quam temporibus laborum, dolor necessitatibus doloribus voluptas in atque ipsa</p>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=VA4caROZEAfQtm8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </div>
+
+        <div>
+            <section id="ultima">
+                <article>
+                    <h3>Quer aprender mais?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iste ipsa dolorum est soluta, sequi quas, quod provident magni nostrum </p>
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro impedit quas sunt quisquam cumque odio, mollitia lau</p>
+                <p>Acesse aqui o site <a href="#">Android History</a> consectetur adipisicing elit. Qui explicabo expedita odit veritatis quam consequuntur, similique</p>
+                </article>
+
+            </section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsa. Ipsam provident necessitatibus, quisquam fuga veniam maxime sapiente voluptates sed quod doloremque 
+
+            </p>
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+        Site criado por <a href="#">Gabriel Lamarca</a> para o <a href="#">CursoEmVideo</a>
+
+    </footer>
+    
+</body>
+</html>
